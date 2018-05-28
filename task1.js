@@ -1,5 +1,5 @@
-const n = Number(process.argv[2]);
-const e = Number(process.argv[3]);
+const n = Number(process.argv[1]);
+const e = Number(process.argv[2]);
 
 const fun = (num, power) => {
     let a = null;
