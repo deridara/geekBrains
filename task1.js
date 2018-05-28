@@ -1,5 +1,5 @@
-const n = Number(process.argv[1]);
-const e = Number(process.argv[2]);
+const n = Number(process.argv[2]);
+const e = Number(process.argv[3]);
 
 const fun = (num, power) => {
     let a = null;
@@ -9,4 +9,6 @@ const fun = (num, power) => {
     return a;
 }
 
-console.log(fun(n, e));
+const stringAnswer = String(fun(n, e));
+process.stdout.write(stringAnswer);
+//console.log(stringAnswer);
